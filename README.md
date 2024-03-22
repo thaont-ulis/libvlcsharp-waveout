@@ -12,23 +12,23 @@ On some PCs using Nvidia cards, when I try to play Play Video and then Pause the
     + LibVLCSharp (https://www.nuget.org/packages/LibVLCSharp/)
  - Setting audio output: WaveOut
 
-    ![alt text](https://github.com/thaont-ulis/libvlcsharp-waveout/tree/main/images/Setting_WaveOut.png)
+    ![alt text](https://github.com/thaont-ulis/libvlcsharp-waveout/tree/main/images/Setting_WaveOut.png?raw=true)
 
 
 ## Sample demo crashes
 
  - Add videos to the textbox (add at least 2 videos)
-   ![alt text](https://github.com/thaont-ulis/libvlcsharp-waveout/tree/main/images/Add_Videos.png)
+   ![alt text](https://github.com/thaont-ulis/libvlcsharp-waveout/tree/main/images/Add_Videos.png?raw=true)
  - Select the output sound as WaveOut and continuously perform LOAD, LOAD, LOAD, etc...
-   ![alt text](https://github.com/thaont-ulis/libvlcsharp-waveout/tree/main/images/Run_WaveOut.png)
+   ![alt text](https://github.com/thaont-ulis/libvlcsharp-waveout/tree/main/images/Run_WaveOut.png?raw=true)
  - After a few clicks on the LOAD button, the program crashes. The crash location is in the library: libwaveout_plugin.dll
-   ![alt text](https://github.com/thaont-ulis/libvlcsharp-waveout/tree/main/images/Run_Crash.png)
+   ![alt text](https://github.com/thaont-ulis/libvlcsharp-waveout/tree/main/images/Run_Crash.png?raw=true)
 
 
 ## In case there is no crash
 
  - Select the output sound as Automatic and continuously perform LOAD, LOAD, LOAD, etc...
-   ![alt text](https://github.com/thaont-ulis/libvlcsharp-waveout/tree/main/images/Run_Automatic.png)
+   ![alt text](https://github.com/thaont-ulis/libvlcsharp-waveout/tree/main/images/Run_Automatic.png?raw=true)
 
 # Conclude
 ## I firmly believe this is a bug in the VLC library with the audio output being WaveOut. I tested on multiple PCs with Nvidia cards and the results were similar.

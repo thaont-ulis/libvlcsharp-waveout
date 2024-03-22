@@ -12,7 +12,7 @@ On some PCs using Nvidia cards, when I try to play Play Video and then Pause the
     + LibVLCSharp (https://www.nuget.org/packages/LibVLCSharp/)
  - Setting audio output: WaveOut
 
-    ![alt text](https://raw.githubusercontent.com/thaont-ulis/libvlcsharp-waveout/tree/main/images/Setting_WaveOut.png?raw=true)
+    <img src="https://github.com/thaont-ulis/libvlcsharp-waveout/tree/main/images/Setting_WaveOut.png"/>
 
 
 ## Sample demo crashes
